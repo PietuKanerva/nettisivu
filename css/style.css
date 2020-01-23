@@ -1,0 +1,6 @@
+.navbar-expand-md{
+    background-color: red;
+    height: 12vh;
+    min-height: 90px;
+    max-height: 180px;
+}
