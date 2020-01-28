@@ -10,12 +10,19 @@
     text-align: left;
 
 }
-
 .navbar
 {
     color: white;
 }
+.container-fluid{
+    padding: 10%;
+    width: 50%;
 
+}
+.img-responsive{
+    min-width: 30%;
+    max-width: 50%;
+}
 .col-8
 {
     color: white;
