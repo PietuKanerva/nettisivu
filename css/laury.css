@@ -10,9 +10,3 @@
             -webkit-transform: rotate(-359deg);
     }
 }
-.vh-100-navbar{
-    height: calc(100vh - 55px);
-}
-.vh-100-navbar-footer{
-    height: calc(100vh - 155px);
-}
