@@ -5,8 +5,8 @@
 
 }
 img {
-    width: 200px; /* You can set the dimensions to whatever you want */
-    height: 200px;
+    width: 400px; /* You can set the dimensions to whatever you want */
+    height: 400px;
     object-fit: cover;
 }
 .header
