@@ -18,7 +18,6 @@
 .col-8
 {
     color: white;
-    margin-left: auto;
-    margin-right: auto;
+    float: center;
     max-width: 100%;
 }
