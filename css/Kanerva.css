@@ -4,7 +4,7 @@
     color: white;
 
 }
-img {
+.img-fluid {
     width: 400px; /* You can set the dimensions to whatever you want */
     height: 400px;
     object-fit: cover;
@@ -22,10 +22,6 @@ img {
     padding: 10%;
     width: 50%;
 
-}
-.img-responsive{
-    min-width: 30%;
-    max-width: 50%;
 }
 .col-8
 {
