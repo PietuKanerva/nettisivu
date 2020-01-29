@@ -40,14 +40,36 @@
     </div>
   </nav>
 
-  <div class="container-md row align-items-center">
+  <div class="container-fluid h-100" style="margin-top: 70px;">
+    <div class="container-md row h-100">
+      <div class="col-md-12 row h-75">
+        <div class="col-md-6" style="margin-top: 20px;">
+          <h2>Contact form</h2>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut elementum turpis, lacinia dignissim
+            lacus. Maecenas laoreet feugiat diam, at feugiat elit sollicitudin a. Duis feugiat ex quis est aliquet
+            pharetra. Maecenas tempus elit tortor, ut porttitor leo efficitur eu. Curabitur sit amet mi diam. Curabitur
+            lacus arcu, ornare at efficitur non, rhoncus a tellus. Donec dictum et lacus eget eleifend.</p>
+          <p>Quisque porta iaculis magna sit amet congue. Ut commodo tempor libero quis molestie. Interdum et malesuada fames ac ante
+            ipsum primis in faucibus. Nunc eget lacus non nibh ornare venenatis fringilla ut sem. Aliquam vehicula nibh
+            at ullamcorper dignissim. Nullam eu felis non odio efficitur gravida nec id enim. Phasellus lacinia odio nec
+            elit fermentum pulvinar. </p>
 
-    <form action="https://formspree.io/jobbaripojat@gmail.com" method="POST">
-      <input type="text" name="name">
-      <input type="email" name="_replyto">
-      <input type="submit" value="Send">
-  </form>
-
+          <p> Proin faucibus lorem vel ligula pulvinar ornare. Aenean metus magna, blandit nec elementum vel, varius a
+            augue. Maecenas felis libero, accumsan et sodales id, finibus sed sem. Donec aliquet erat dictum leo lobortis
+            ultricies. </p>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4" style="margin-top: 50px;">
+            <form action="https://formspree.io/jobbaripojat@gmail.com" method="POST">
+              <span>Nimi: </span><br><input type="text" cols="60" name="Nimi" class="formi" style="margin-bottom: 10px;"><br>
+              <span>Sähköposti: </span><br><input type="email" name="Lähettäjä" class="formi" style="margin-bottom: 40px;"><br>
+              <span>Viesti: </span><br><textarea row="15" type="text" class="formi" name="Sisältö"
+                style="min-height: 15vh; margin-bottom: 10px;"></textarea><br>
+              <input type="submit" value="Lähetä">
+            </form>
+        </div>
+      </div>
+    </div>
   </div>
 
   <footer class="col-md-12 py-4 bg-dark text-white-50 fixed-bottom">
