@@ -1,0 +1,31 @@
+html{
+    overflow-y: scroll;
+}
+body{
+    background-color: black !important;
+    color: white !important;
+    padding-bottom: 150px !important;
+}
+
+.header
+{
+    text-align: left;
+
+}
+
+.navbar
+{
+    color: white;
+}
+#okPojat {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(-359deg);
+    }
+}

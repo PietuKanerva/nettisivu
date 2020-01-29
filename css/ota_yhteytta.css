@@ -1,0 +1,8 @@
+.formi{
+    width: 25vw;
+    min-width: 200px; 
+    max-width: 50%;
+}
+.container-fluid > .row{
+    margin: auto;
+}
