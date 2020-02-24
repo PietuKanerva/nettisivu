@@ -1,0 +1,11 @@
+.container-fluid{
+    padding: 10% 0;
+    width: 50%;
+
+}
+.col-8
+{
+    color: white;
+    float: right;
+    max-width: 100%;
+}
